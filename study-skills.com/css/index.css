@@ -1,0 +1,92 @@
+*{box-sizing:border-box;}
+body{
+	padding:0px;
+	margin:0px;
+	font-family:arial;
+	overflow:hidden;}
+#sandbox{
+
+}
+#sandbox:hover{
+	background:black;
+	color:white;
+}
+.container{
+	width:100vw;
+	height:100vh;}
+/*Шапка*/
+.header{
+	width:100vw;
+	height:10vh;
+	padding:20px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;}
+.header p{font-size:20px;}
+.header button{
+	background:none;
+	color:black;
+	padding:18px;
+	font-size:18px;
+	border:none;
+	border:1px solid black;}
+.header button:hover{
+	background:black;
+	color:white;
+}
+/*Контент*/
+.content{
+	background:rgb(220,220,220);
+	width:100vw;
+	height:90vh;
+	display:flex;
+	justify-content:center;
+	align-items:center}
+.cards{display:flex;}
+.card{
+	width:400px;
+	height:500px;
+	margin:5px;}
+.title{
+	background:black;
+	color:white;
+	width:400px;
+	height:50px;
+	font-size:24px;
+	font-weight:bold;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;}
+.text{
+	background:white;
+	width:400px;
+	height:400px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;}
+.text p{
+	font-size:24px;
+	text-align:center;}
+.price{
+	background:black;
+	color:white;
+	width:400px;
+	height:50px;
+	font-size:24px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-weight:bold;}
+.start{
+	background:crimson;
+	color:white;
+	width:70px;
+	height:70px;
+	border-radius:360px;
+	border:none;
+	position:relative;
+	top:-60px;
+	left:300px;
+}
